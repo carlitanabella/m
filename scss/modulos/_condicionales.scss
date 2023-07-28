@@ -1,0 +1,22 @@
+
+
+body {
+    @if $vista == desktop {
+    @media screen and (min-width: 1024px) {
+        nav {
+            font-size: $fontsizenavd;
+        }
+        
+    }
+}
+    @else if $vista == mobile {
+        @media screen and (min-width: 320px) {
+            nav {
+                font-size: $fontsizenavm;
+
+            }
+            
+        }
+    }
+}
+

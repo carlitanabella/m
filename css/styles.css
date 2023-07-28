@@ -1,0 +1,32 @@
+@font-face {
+  font-family: JUST;
+  src: url(../assets/font/static/Jost-Black.ttf);
+}
+@font-face {
+  font-family: BEBAS;
+  src: url(../assets/font/BebasNeue-Regular.ttf);
+}
+@media screen and (min-width: 320px) {
+  body nav {
+    font-size: 1rem;
+  }
+}
+
+nav {
+  font-family: JUST;
+}
+
+footer {
+  font-family: JUST;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: BEBAS;
+}
+
+h5 {
+  font-family: JUST;
+}
+
+/*# sourceMappingURL=styles.css.map */
